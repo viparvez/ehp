@@ -469,7 +469,7 @@ class AdmissionController extends Controller
         );
 
         if ($advance_attendance[0]->result > 0) {
-          return response()->json(['error'=>array('Attendance for this apartment for a date equal to or grater than the moveout date is present. Please select a correct date for discharge.')]);
+          return response()->json(['error'=>array('Attendance for this apartment for a date equal to or grater than the moveout date is already present. Please select a valid moveout date.')]);
         }
 
         $precondiotionId = Precondition::where(['name'=> 'Discharged'])->first();
