@@ -108,7 +108,7 @@ class AdmissionController extends Controller
         $checkAptAv = DB::select(
         "
           SELECT
-            count(apartment_id)
+            count(apartment_id) AS result
           FROM
             apartmentallotments
           WHERE
@@ -123,7 +123,7 @@ class AdmissionController extends Controller
         "
         );
 
-        if ($checkAptAv < 1) {
+        if ($checkAptAv[0]->result > 0) {
           return response()->json(['error'=>array('Apartment was not vacant in any point of time between the date you provided and today.')]);
         }
 
@@ -431,7 +431,7 @@ class AdmissionController extends Controller
         $validator = Validator::make($request->all(), [
             'admission_id' => 'required',
             'moveoutdate' => 'required',
-            'discharge_doc' => 'mimes:jpeg,png,jpg,pdf|max:2048',
+            #'discharge_doc' => 'mimes:jpeg,png,jpg,pdf|max:2048',
         ]);
 
         $admission = Admission::where(['id'=> $request->admission_id, 'active' => '1', 'deleted' => '0'])->first();
@@ -456,6 +456,21 @@ class AdmissionController extends Controller
         //$vacantfrom = date('Y-m-d',strtotime($moveoutdateFormatted . "+1 days"));
 
         $vacantfrom = date('Y-m-d',strtotime($moveoutdateFormatted . "+1 days"));
+
+        $advance_attendance = DB::select(
+          "
+            SELECT count(*) AS result
+            FROM attendances
+            WHERE apartment_id = '$admission->apartment_id'
+            AND active = '1'
+            AND deleted = '0'
+            AND date >= '$moveoutdateFormatted'
+          "
+        );
+
+        if ($advance_attendance[0]->result > 0) {
+          return response()->json(['error'=>array('Attendance for this apartment for a date equal to or grater than the moveout date is present. Please select a correct date for discharge.')]);
+        }
 
         $precondiotionId = Precondition::where(['name'=> 'Discharged'])->first();
 
@@ -616,7 +631,7 @@ class AdmissionController extends Controller
       $checkAptAv = DB::select(
         "
           SELECT
-            count(apartment_id)
+            count(apartment_id) AS result
           FROM
             apartmentallotments
           WHERE
@@ -631,7 +646,7 @@ class AdmissionController extends Controller
         "
       );
 
-      if ($checkAptAv < 1) {
+      if ($checkAptAv[0]->result > 0) {
         return response()->json(['error'=>array('Apartment was not vacant in any point of time between the date you provided and today.')]);
       }
 
