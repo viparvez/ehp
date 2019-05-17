@@ -1,0 +1,15 @@
+#client_ops {
+	background: white;
+}
+
+#client_ops ul {
+	list-style: none;
+	padding: 2px;
+	border: 1px solid black;
+}
+
+#client_ops ul li:hover {
+	background: #003c8c;
+	cursor: pointer;
+	color: white;
+}

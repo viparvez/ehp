@@ -1,0 +1,37 @@
+[26-Apr-2018 12:52:09 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[26-Apr-2018 12:52:19 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[26-Apr-2018 12:54:44 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[26-Apr-2018 12:54:47 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[26-Apr-2018 18:14:03 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[26-Apr-2018 18:15:08 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[26-Apr-2018 19:59:31 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[26-Apr-2018 19:59:37 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[27-Apr-2018 05:14:43 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[27-Apr-2018 05:15:40 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[27-Apr-2018 05:17:09 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[27-Apr-2018 05:18:22 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[27-Apr-2018 05:18:55 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[27-Apr-2018 05:20:02 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[27-Apr-2018 05:25:17 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[27-Apr-2018 05:29:58 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[27-Apr-2018 05:59:30 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[27-Apr-2018 06:05:25 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[27-Apr-2018 06:24:28 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[27-Apr-2018 06:28:02 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[27-Apr-2018 06:59:52 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'i4389685_bpn'@'localhost' (using password: YES) in /home/ronvoltbd/public_html/bphn/index.php on line 24
+[27-Apr-2018 07:03:23 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[27-Apr-2018 07:05:11 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[27-Apr-2018 13:25:52 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[04-May-2018 06:08:18 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[04-May-2018 06:14:21 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[04-May-2018 06:15:51 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[04-May-2018 06:15:53 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[04-May-2018 06:20:23 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[04-May-2018 06:20:40 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[04-May-2018 06:21:06 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[04-May-2018 06:21:17 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[04-May-2018 06:24:15 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[04-May-2018 06:25:32 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[04-May-2018 06:38:12 UTC] PHP Warning:  require(/home/ronvoltbd/public_html/bphn/public/vendor/autoload.php): failed to open stream: No such file or directory in /home/ronvoltbd/public_html/bphn/public/index.php on line 24
+[04-May-2018 06:38:12 UTC] PHP Fatal error:  require(): Failed opening required '/home/ronvoltbd/public_html/bphn/public/vendor/autoload.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ronvoltbd/public_html/bphn/public/index.php on line 24
+[04-May-2018 06:52:21 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ronvoltbd/public_html/bphn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233

@@ -1,0 +1,3 @@
+<!--#echo var="HTTP_REFERER" -->
+<!--#echo var="REDIRECT_STATUS" -->
+<!--#echo var="HTTP_HOST" -->
