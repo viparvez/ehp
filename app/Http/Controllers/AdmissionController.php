@@ -462,9 +462,10 @@ class AdmissionController extends Controller
             SELECT count(*) AS result
             FROM attendances
             WHERE apartment_id = '$admission->apartment_id'
+            AND attend = '1'
             AND active = '1'
             AND deleted = '0'
-            AND date >= '$moveoutdateFormatted'
+            AND date > '$moveoutdateFormatted'
           "
         );
 
