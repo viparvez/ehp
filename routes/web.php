@@ -199,6 +199,7 @@ Route::group(['middleware' => ['auth']], function () {
 Route::group(['prefix' => 'scheduler'], function () {
     
    	Route::get('/inspections/incomplete/drop','ScheduledTaskController@capAlert')->name('dropIncompleteInspections');
+   	Route::get('/inspections/capdue/notify','ScheduledTaskController@capdue')->name('capduenotification');
 
 });
 
